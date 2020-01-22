@@ -33,10 +33,10 @@
               <p>Hey! I am currently working (remotely) with <a href="https://cs.uwaterloo.ca/~xihe/">Prof. Xi He</a>, who recently hosted me as a Research Scholar in the <a href="https://uwaterloo.ca/data-systems-group/">Data Systems Group</a> at 
               the <a href="https://cs.uwaterloo.ca/">University of Waterloo, Canada</a>. My work is broadly in the domains of Data Privacy and Machine Learning.</p> 
               <p>
-                In the past, I completed my undegraduate (majoring in Computer Engineering) from the University of Pune (India) in 2018. During and after my undergraduate, I worked as an Intern on the intersection of Data Privacy and Machine Learning with <a href="https://www.comp.nus.edu.sg/~reza/">Prof. Reza Shokri</a> at the <a href="https://www.comp.nus.edu.sg/about/depts/cs/">National University of Singapore</a>, on Systems Biology with Prof. Ashutosh Gupta at the <a href="https://www.cse.iitb.ac.in/">Indian Institute of Technology (Bombay)</a>, on Manifold Learning with <a href="https://www.tifr.res.in/~hariharan.narayanan/">Hariharan Narayanan</a> at the <a href="http://www.tcs.tifr.res.in/">Tata Institute of Fundamental Research</a>  and built a high-performance automated data processing pipeline at the <a href="http://www.ncra.tifr.res.in/ncra/main">National Centre for Radio Astrophysics</a> with a dedicated team of colleagues.	
-              </p>
-              <p>
-                On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+                In the past, I completed my undegraduate (majoring in Computer Engineering) from the University of Pune (India) in 2018. During and after my undergraduate, I worked as an Intern on the intersection of Data Privacy and Machine Learning with <a href="https://www.comp.nus.edu.sg/~reza/">Prof. Reza Shokri</a> at the <a href="https://www.comp.nus.edu.sg/about/depts/cs/">National University of Singapore</a>, on Systems Biology with Prof. Ashutosh Gupta at the <a href="https://www.cse.iitb.ac.in/">Indian Institute of Technology (Bombay)</a>, on Manifold Learning with <a href="https://www.tifr.res.in/~hariharan.narayanan/">Hariharan Narayanan</a> at the <a href="http://www.tcs.tifr.res.in/">Tata Institute of Fundamental Research</a>  and built a high-performance automated data processing pipeline at the <a href="http://www.ncra.tifr.res.in/ncra/main">National Centre for Radio Astrophysics</a> with a dedicated team of colleagues. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+                </p>
+                <p>
+                Though I have a wide range of research interests, I am currently delving into the privacy and security aspects of machine learning algorithms and systems.
               </p> <br>
               <p style="text-align:center">
                 <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
@@ -54,7 +54,9 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        
+		<!-- Research section -->       
+<!--         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
@@ -63,7 +65,7 @@
               </p>
             </td>
           </tr>
-        </tbody></table>
+        </tbody></table> -->
         
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     
@@ -84,23 +86,23 @@
                 <papertitle>Global Approximation of linear and polynomial functions on Manifolds via Partitions of Unity</papertitle>
               <br>
               <i>Shadab Shaikh, <a href="https://www.tifr.res.in/~hariharan.narayanan/">Hariharan Narayanan</a></i>.
-              <br><br>
+              <br>
               <p>In this work, we empirically test a hypothesis that locally fitted linear and polynomial functions on
 			  the charts of a 2 - dimensional manifold can be globally approximated over the
 			  whole surface of the manifold. For doing so, we consider the Partitions of Unity method.
 			  </p>
-              <br>
-			  (<strong><a href="https://drive.google.com/file/d/1g1knDX4Jsp3Tv4S7kFuntekLBE0MFv71/view">Project Report</a></strong>)
+			  ( <strong><a href="https://drive.google.com/file/d/1g1knDX4Jsp3Tv4S7kFuntekLBE0MFv71/view">Report</a></strong> )
             <br><br><br>
             </td>
           </tr> 
+          
           <tr onmouseout="font_stop()" onmouseover="font_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
                 <img src='images/ncra.png' style="width:200px;height:100px;">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <papertitle>GMRT Archive Processing Project</papertitle>
-              <br><br>
+              <br>
               <a href="https://shuby.de/">Shubhankar Deshpande</a>,
               Yogesh Wadadekar,
               Huib Intema,
@@ -112,7 +114,7 @@
               C. H. Ishwara-Chandra,
               Divya Oberoi
               <br>
-              <em>ADASS</em>, 2018 
+              <em>in <a href="http://adass2018.astro.umd.edu/abstracts/P4.7.html"><i>ADASS'18</i></a></em> 
               <br>
               <p>Built a compute cluster and data science pipeline to synthesize images from raw data collected by the Giant Metrewave Radio Telescope (GMRT). Efforts helped reduced synthesis time from 5 months to around 1 month. Project is currently generating one of the world's largest catalogs of sub-GHz frequency radio astronomy images. </p>
               (
@@ -122,8 +124,24 @@
                </strong>
               </font>
               )
+              <br><br><br>
             </td>
           </tr>
+      	  <tr>
+            <td style="padding:20px;width:15%;vertical-align:top">
+				<img src='images/memprivacy_structure.png' style="width:200px;height:150px;">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle><i>memprivacy</i> : A library to defend against and mount membership inference attacks on deep neural networks</papertitle>
+              <br>
+              <p>Built a python library (on top of TensorFlow) to make it easier to train any variant
+			  of Deep Neural Network (DNN) to be robust against membership inference attacks and to quantify the membership information leakage of (trained) deep neural networks. The central theme throughout building this tool is to make sure that it is possible to do the above in under 20 to 30 lines of code.
+			  </p>
+			  ( <strong><a href="https://drive.google.com/file/d/1eXXCczd0PxQsYQKlGOsb4bJC40AYkK9c/view?usp=sharing">Report</a></strong> )
+            <br><br><br>
+            </td>
+          </tr >          
+
          </tbody>
 		</table>
     </tbody>
