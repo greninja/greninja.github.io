@@ -30,13 +30,15 @@
               <p style="text-align:center">
                 <name>Shadab Shaikh</name>
               </p> <br>
-              <p>Hey! I am currently working (remotely) with <a href="https://cs.uwaterloo.ca/~xihe/">Prof. Xi He</a>, who recently hosted me as a Research Scholar in the <a href="https://uwaterloo.ca/data-systems-group/">Data Systems Group</a> at 
-              the <a href="https://cs.uwaterloo.ca/">University of Waterloo, Canada</a>. My work is broadly in the domains of Data Privacy and Machine Learning.</p> 
+              <p>My research interests lie broadly in robust and adversarial machine learning. More specifically, I
+               am interested in designing rigorous, scalable and efficient countermeasures to make ML models more 
+               robust and real-world deployment ready. For which, I am keen to investigate questions pertaining to memorization, generalization, privacy and its connections with robustness and security of learning algorithms. In light of my interests, I am currently working with <a href="https://web.cs.ucla.edu/~baharan/">Prof. Baharan Mirzasoleiman</a> on defenses for data poisoning attacks on learning algorithms.   
+              </p>
+
               <p>
-                In the past, I completed my undegraduate (majoring in Computer Engineering) from the University of Pune (India) in 2018. During and after my undergraduate, I worked as an Intern on the intersection of Data Privacy and Machine Learning with <a href="https://www.comp.nus.edu.sg/~reza/">Prof. Reza Shokri</a> at the <a href="https://www.comp.nus.edu.sg/about/depts/cs/">National University of Singapore</a>, on Systems Biology with Prof. Ashutosh Gupta at the <a href="https://www.cse.iitb.ac.in/">Indian Institute of Technology (Bombay)</a>, on Manifold Learning with <a href="https://www.tifr.res.in/~hariharan.narayanan/">Hariharan Narayanan</a> at the <a href="http://www.tcs.tifr.res.in/">Tata Institute of Fundamental Research</a>  and built a high-performance automated data processing pipeline at the <a href="http://www.ncra.tifr.res.in/ncra/main">National Centre for Radio Astrophysics</a> with a dedicated team of colleagues. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+                Formerly, I completed my undegraduate (majoring in Computer Engineering) from University of Pune (India) in 2018. During and after my undergraduate, I have visited University of Waterloo under <a href="https://cs.uwaterloo.ca/~xihe/">Prof. Xi He</a>, National University of Singapore under <a href="https://www.comp.nus.edu.sg/~reza/">Prof. Reza Shokri</a>, Indian Institute of Technology (Bombay) under <a href="https://www.cse.iitb.ac.in/~akg/">Prof. Ashutosh Gupta</a>, Tata Institute of Fundamental Research under <a href="https://www.tifr.res.in/~hariharan.narayanan/">Hariharan Narayanan</a> and National Centre for Radio Astrophysics. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
                 </p>
                 <p>
-                Though I have a wide range of research interests, I am currently delving into the privacy and security aspects of machine learning algorithms and systems.
               </p> <br>
               <p style="text-align:center">
                 <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
@@ -44,8 +46,8 @@
                 <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
                 <a href="mailto:sshadab84@gmail.com">Email</a> &nbsp/&nbsp 
                 <a href="https://github.com/greninja">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/shadab-shaikh-1251bb110/">LinkedIn</a> &nbsp/&nbsp
-                <a href="https://twitter.com/ShadabShaikh_3">Twitter</a>
+                <!--<a href="https://www.linkedin.com/in/shadab-shaikh-1251bb110/">LinkedIn</a> &nbsp/&nbsp-->			   
+				<a href="https://twitter.com/ShadabShaikh_3">Twitter</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -73,27 +75,45 @@
 		 <tbody>
 		  <tr>
             <td>
-              <heading>Selected projects</heading>
+              <heading>Projects/Publications</heading>
             </td>
           </tr>
+
+<!--           <tr onmouseout="font_stop()" onmouseover="font_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/coredp.png' style="width:200px;height:200px;">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>A Unified Defense Mechanism against Data Poisoning Attacks</papertitle>
+              <br>
+              <i>
+              <strong>Shadab Shaikh</strong>,
+              Baharan Mirzasoleiman
+              </i>
+              <br>
+              Under review at AISTATS'21
+              <br>
+              <p>Lorem Ipsum 
+              </p>
+              <br><br><br>
+            </td>
+          </tr> -->
 
       	  <tr>
             <td style="padding:20px;width:15%;vertical-align:top">
 				<img src='images/ml-privacy-meter.png' style="width:200px;height:150px;">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle><i>ml_privacy_meter</i> : A library to mount membership inference attacks on deep neural networks</papertitle>
-              <br>
-              <i>along with
-              <a href="https://mihirkhandekar.github.io/">Mihir Harshavardhan Khandekar, 
+                <papertitle><i>ML Privacy Meter</i> : A library to quantify privacy risks of machine learning models</papertitle>
+<!--               <a href="https://mihirkhandekar.github.io/">Mihir Harshavardhan Khandekar, 
               <a href="https://people.cs.umass.edu/~milad/">Milad Nasr</a>, 
               <a href="https://www.comp.nus.edu.sg/~reza/">Reza Shokri</a></i>
-			  <br>              
-              <p>Built a python library (on top of TensorFlow) to make it easier to quantify the membership information leakage and hence the privacy risks of machine learning models. The library implements membership inference attacks in both the black-box and white-box settings.
+ -->			  <br>              
+              <p>The library includes functionality for mounting a suite of black-box and white-box membership inference attacks that provide privacy risk scores. These risk scores help in identifying records among the training data that are under high risk of being leaked through the model parameters or predictions. 
 			  </p>
 <!--         [<font color="blue"><strong><a href="https://drive.google.com/file/d/1eXXCczd0PxQsYQKlGOsb4bJC40AYkK9c/view?usp=sharing">Report</a></strong></font>] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -->
          [<font color="blue"><strong><a href="https://github.com/privacytrustlab/ml_privacy_meter">Code</a></strong></font>] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br><br><br> 
+            <br><br>
             </td>
           </tr>
 
@@ -125,7 +145,7 @@
               [<font color="blue"><strong><a href="https://shuby.de/files/ADASS-talk.pdf">Slides</a></strong></font>] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               [<font color="blue"><strong><a href="https://github.com/NCRA-TIFR">Code</a></strong></font>] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               [<font color="blue"><strong><a href="https://indianexpress.com/article/cities/pune/one-petabyte-data-pune-now-home-to-indias-largest-astronomical-archives-6294719/">Media</a></strong></font>]
-              <br><br><br>
+              <br><br>
             </td>
           </tr>
 
@@ -154,7 +174,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Other interests</heading>
               <p>
-                <span>I have recently picked up the habit of reading books (religiously). Check out my <a href="books.html">bookshelf</a>!</span>
+                <span>I enjoy cycling and reading. Check out my virtual <a href="books.html">bookshelf</a>!</span>
               </p>
             </td>
           </tr>
@@ -1377,7 +1397,7 @@
               <br>
               <p style="text-align:right;font-size:small;">
                 <br>
-                <a href="https://github.com/jonbarron/website">Source code</a> of the source of my website, by <a href="https://jonbarron.info/">Jon Barron</a>.
+                <a href="https://github.com/jonbarron/website">Source code</a> of the source of this website, by <a href="https://jonbarron.info/">Jon Barron</a>.
               </p>
             </td>
           </tr>
