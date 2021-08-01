@@ -8,7 +8,7 @@ title: Home
 <img src="/assets/img/profile/profile.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
-I'll be starting my graduate studies in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I'll be working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. From a research point of view, my current research interests lie in the thread that runs through Machine Learning, Causal Inference and Systems (check later for specifics). I am also interested in data privacy and security aspects of Machine Learning systems.
+I'll be starting my graduate studies in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I'll be working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. From a research point of view, my current interests lie in the thread that runs through Machine Learning, Causal Inference and Systems (kindly check later for specifics). I am also interested in data privacy and security aspects of Machine Learning systems.
 
 Formerly, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
