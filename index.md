@@ -8,15 +8,15 @@ title: Home
 <img src="/assets/img/profile/profile.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
-I'll be commencing my graduate studies in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I'll be working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. From a research point of view, I am currently interested in the thread that runs through Machine Learning, Causal Inference and Systems. I am also interested in data privacy and security aspects of Machine Learning systems.
+I'll be starting my graduate studies in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I'll be working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. From a research point of view, my current research interests lie in the thread that runs through Machine Learning, Causal Inference and Systems (check later for specifics). I am also interested in data privacy and security aspects of Machine Learning systems.
 
-Formerly, I completed my undergraduate (majoring in Computer Engineering) at the University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
+Formerly, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
-I carried out these projects during my visits to *University of Waterloo* (with [Prof. He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
 
 Outside of research, I enjoy cycling and reading ([bookshelf](/books.html)).
 
-### Contact
+### Email
 \<first_name\>s3 [at] cs.ubc.ca &emsp; (where \<first_name\> = shadab)
 
 <!-- <hr/>
