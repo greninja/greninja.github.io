@@ -1,0 +1,27 @@
+---
+title: "\format[HTMLChars]{\title}"
+layout: publication
+categories:
+  - Research
+tags:
+  - \format[Replace(\, ,\n  - )]{\keywords}
+last_modified_at: \format[CurrentDate]{yyyy-MM-dd}T\format[CurrentDate]{HH:mm:ss}-01:00
+venue: "\series"
+abstract: "\format[HTMLChars]{\abstract}"
+authors: "\format[Authors(FirstFirst)]{\author}"
+type: "\entrytype"
+\begin{doi} doi: "{\doi}" \end{doi}
+\begin{url} pdf: "\url" \end{url}
+bib: "@\entrytype{\bibtexkey,<br />
+  &nbsp;&nbsp;author    = {\author},<br />
+  &nbsp;&nbsp;booktitle = {\booktitle},<br />
+  &nbsp;&nbsp;title     = {\title},<br />
+  &nbsp;&nbsp;year      = {\year},<br />
+  &nbsp;&nbsp;month     = {\month},<br />
+  &nbsp;&nbsp;pages     = {\pages},<br />
+  &nbsp;&nbsp;publisher = {\publisher},<br />
+  &nbsp;&nbsp;series    = {\series},<br />
+  &nbsp;&nbsp;doi       = {\doi},<br />
+  &nbsp;&nbsp;isbn      = {\isbn},<br />
+}"
+---

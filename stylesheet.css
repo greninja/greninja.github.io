@@ -74,6 +74,10 @@ a:hover {
   text-decoration: none;
 }
 
+script {
+  font-size: 20px;
+}
+
 body,
 td,
 th,
@@ -81,7 +85,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 strong {
@@ -100,8 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
-    font-size: 17px
-}
+    font-size: 20px;
+} 
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;

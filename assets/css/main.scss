@@ -1,0 +1,88 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+$sidebar-bg-color: #2b375c !default;
+$sidebar-fg-color: white !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+$link-color: #268bd2 !default;
+$large-breakpoint: 49rem !default;
+
+
+body {
+    background-image: url(/assets/img/ubc_imgs/final.jpg);
+    background-blend-mode: soft-light;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+
+/* Image alignment */
+img[alt$=">"] {
+    float: right;
+}
+  
+img[alt$="<"] {
+    float: left;
+}
+
+img[alt$="><"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: none!important;
+}
+
+@media (max-width: $large-breakpoint) {
+    img[alt$=">"], img[alt$="<"] {
+        display: block;
+        float: none;
+    }
+}
+
+/* Publication styles */
+.post-authors {
+    font-style: italic;
+}
+.post-type {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+img.post-featured {
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+
+/* Nav */
+.logo {
+    width: 4rem;
+}
+
+@media (max-width: $large-breakpoint) {
+    body {
+        background-size: cover;
+    }
+
+    .home #sidebar .logo {
+        display: block;
+        width: 3rem;
+        margin: 20px auto;
+    }
+
+    #sidebar .logo {
+        display: inline;
+        width: 1.3rem;
+        margin: 0 5px -3px 0;
+    }
+
+    img.post-featured {
+        float: none;
+    }
+  }
+
+@import "hydeout";
