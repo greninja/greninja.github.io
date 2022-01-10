@@ -5,7 +5,7 @@ title: Home
 
 # About me
 
-<img src="/assets/img/profile/profile.jpg" align="right" width="250"/>
+<img src="/assets/img/profile/Profile 2.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
 I am a graduate student (research masters) in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I am working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. From a research point of view, my current interests are broad. I am looking into the security aspects of Machine Learning algorithms, while on the side also exploring the thread that runs through Machine Learning, Causal Inference and Systems. The specifics are still evolving so check again later :) 
