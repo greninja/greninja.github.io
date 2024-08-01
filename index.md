@@ -8,7 +8,7 @@ title: Home
 <img src="/assets/img/profile/Profile 2.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
-I am a graduate student (research masters) in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I am working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. My masters thesis was on the topic of improving the adversarial robustness of deep learning models using key properties of Differential Privacy. For more details, check <link to your own subpage>.
+I am a graduate student (research masters) in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I am working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. My masters thesis was on the topic of improving the adversarial robustness of deep learning models using key properties of Differential Privacy.
 
 Formerly, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
