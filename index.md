@@ -5,7 +5,7 @@ title: Home
 
 # About me
 
-<img src="/assets/img/profile/Profile_5.jpg" align="right" width="250"/>
+<img src="/assets/img/profile/Profile_4.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
 I am a graduate student (research masters) in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I am working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. My masters thesis was on the topic of improving the adversarial robustness of deep learning models using key properties of Differential Privacy.
