@@ -17,7 +17,7 @@ I carried out these projects during my visits to *University of Waterloo* (with 
 Outside of research, I enjoy running, lifting, biking or just about any form of physical activity ([Strava](https://www.strava.com/athletes/24538204)) and reading ([bookshelf](/books.html)).
 
 ### Email
-\<first_name\>s3 [at] cs.ubc.ca &emsp; (where \<first_name\> = shadab)
+sshadab84 [at] gmail dot com &emsp;
 
 <!-- <hr/>
 
