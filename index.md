@@ -8,7 +8,7 @@ title: Home
 <img src="/assets/img/profile/Profile_4.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
-I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper]({{ site.baseurl }}{{ 'research/2024/08/01/ars/' }}) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
+I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper](https://shadabs.com/research/2024/08/01/ars.html) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
 
 In a previous life, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
