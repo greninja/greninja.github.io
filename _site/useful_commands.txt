@@ -4,3 +4,6 @@ bundle exec jekyll build --> not sure what this is forwardable
 
 # before pushing code to github, you need to "compile" the webiste, use:
 jekyll build
+
+# to test locally
+bundle exec jekyll serve

@@ -8,13 +8,13 @@ title: Home
 <img src="/assets/img/profile/Profile_4.jpg" align="right" width="250"/>
 <!-- ![Shadab](/assets/img/profile.png)-->
 
-I am a graduate student (research masters) in Computer Science at the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I am working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of [Systopia](https://systopia.cs.ubc.ca/) lab. My masters thesis was on the topic of improving the adversarial robustness of deep learning models using key properties of Differential Privacy.
+I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper]({{ site.baseurl }}{{ 'research/2024/08/01/ars/' }}) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
 
-Formerly, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
+In a previous life, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
 I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
 
-Outside of research, I enjoy cycling and reading ([bookshelf](/books.html)).
+Outside of research, I enjoy running, lifting, biking or just about any form of physical activity ([Strava](https://www.strava.com/athletes/24538204)) and reading ([bookshelf](/books.html)).
 
 ### Email
 \<first_name\>s3 [at] cs.ubc.ca &emsp; (where \<first_name\> = shadab)
