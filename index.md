@@ -5,7 +5,7 @@ title: Home
 
 <div class="profile-section">
   <h1 class="profile-name">Shadab Shaikh</h1>
-  <img src="/assets/img/profile/cropped_circle_image_2.png" class="profile-img" alt="Shadab Shaikh"/>
+  <img src="/assets/img/profile/cropped_circle_image_5.png" class="profile-img" alt="Shadab Shaikh"/>
   
   <div class="social-links-row">
     <a class="social-link-text" href="https://github.com/greninja" target="_blank">
