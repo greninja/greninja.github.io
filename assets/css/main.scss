@@ -3,8 +3,8 @@
 # only main files contain this front matter, not partials.
 ---
 
-$sidebar-bg-color: #2b375c !default;
-$sidebar-fg-color: white !default;
+$sidebar-bg-color: #ffffff !default;
+$sidebar-fg-color: #2b375c !default;
 $sidebar-sticky: true !default;
 $layout-reverse: false !default;
 $link-color: #268bd2 !default;
@@ -12,20 +12,409 @@ $large-breakpoint: 49rem !default;
 
 
 body {
-    background-image: url(/assets/img/ubc_imgs/final.jpg);
-    background-blend-mode: soft-light;
-    background-position: top left;
-    background-repeat: no-repeat;
+    background: #ffffff !important;
+    background-image: none !important;
+    background-color: #ffffff !important;
+    display: block !important;
+}
+
+/* Hide the sidebar */
+#sidebar {
+    display: none !important;
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    margin: 0 auto 3rem;
+    max-width: 400px;
+    padding-top: 1.5rem;
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2b375c;
+    margin: 0 0 2rem 0;
+}
+
+.profile-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.social-links-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.social-links-row:first-of-type .social-link-text {
+    font-size: 1.15rem;
+}
+
+.social-links-row:first-of-type .social-link-text svg {
+    width: 1.35rem;
+    height: 1.35rem;
+}
+
+.secondary-links {
+    margin-top: 0.75rem;
+    gap: 1.5rem;
+}
+
+.social-link-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #2b375c;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.15rem;
+    transition: all 0.2s ease;
+}
+
+.social-link-text svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: #2b375c;
+    transition: fill 0.2s ease;
+}
+
+.social-link-text:hover {
+    color: #268bd2;
+}
+
+.social-link-text:hover svg {
+    fill: #268bd2;
+}
+
+/* Books Page */
+.books-page {
+    max-width: 100% !important;
+}
+
+.books-page h1 {
+    text-align: center;
+    color: #2b375c;
+    margin-bottom: 1.5rem;
+}
+
+.books-intro {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: #515151;
+    line-height: 1.7;
+}
+
+.books-intro p {
+    margin-bottom: 0.75rem;
+}
+
+.books-intro a {
+    color: #268bd2;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.books-intro a:hover {
+    text-decoration: underline;
+}
+
+.books-section {
+    margin-bottom: 3rem;
+    max-width: 100%;
+}
+
+.books-section h2 {
+    color: #2b375c;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.book-list {
+    margin: 1.5rem 0;
+}
+
+.book-list .loading {
+    color: #888;
+    font-style: italic;
+}
+
+.book-items {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.book-items li {
+    padding: 0.6rem 0;
+    line-height: 1.6;
+    margin-left: 0.5rem;
+}
+
+.book-items a {
+    color: #268bd2;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+
+.book-items a:hover {
+    text-decoration: underline;
+    color: #1c6fa0;
+}
+
+.book-author {
+    color: #666;
+    font-size: 0.95rem;
+    margin-left: 0.3rem;
+}
+
+/* Projects Page */
+.projects-page h1 {
+    text-align: center;
+    color: #2b375c;
+    margin-bottom: 2rem;
+}
+
+/* Project Tags */
+.project-tag {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.tag-research {
+    background-color: #e8f4f8;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+.tag-engineering {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Research Section */
+.container h2 {
+    text-align: center;
+    color: #2b375c;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.research-section {
+    margin: 2rem 0;
+}
+
+.research-item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.research-section article {
+    border: none !important;
+}
+
+.research-img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.research-content {
+    flex: 1;
+}
+
+.research-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.research-content h3 a {
+    color: #2b375c;
+    text-decoration: none;
+}
+
+.research-content h3 a:hover {
+    color: #268bd2;
+}
+
+.research-meta {
+    margin-bottom: 0.75rem;
+    color: #515151;
+    font-size: 0.95rem;
+}
+
+.research-abstract {
+    color: #767676;
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+}
+
+.research-links {
+    margin: 0;
+}
+
+.research-links a {
+    color: #268bd2;
+    text-decoration: none;
+    margin-right: 0.75rem;
+    font-weight: 500;
+}
+
+.research-links a:hover {
+    text-decoration: underline;
+}
+
+/* Job Status Banner */
+.job-status-banner {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 1.5rem 2rem 0.3rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.job-status-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #2b375c;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.4;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.cta-button.primary {
+    background: #2b375c;
+    color: #ffffff;
+    border-color: #2b375c;
+}
+
+.cta-button.primary:hover {
+    background: #1a2a4a;
+    border-color: #1a2a4a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(43, 55, 92, 0.3);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: #2b375c;
+    border-color: #2b375c;
+}
+
+.cta-button.secondary:hover {
+    background: #2b375c;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(43, 55, 92, 0.2);
+}
+
+/* Adjust container to remove sidebar margin */
+.container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 900px;
+    margin: 0 auto !important;
+    padding: 0 2rem;
+}
+
+/* Override container width for books page */
+body:has(.books-page) .container {
+    max-width: 1200px !important;
+}
+
+/* Remove top margin from first heading */
+.container h1:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    text-align: center;
 }
 
 
 /* Image alignment */
+img[align="right"] {
+    float: right;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 40%;
+    height: auto;
+}
+
+img[align="left"] {
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 40%;
+    height: auto;
+}
+
 img[alt$=">"] {
     float: right;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 40%;
+    height: auto;
 }
   
 img[alt$="<"] {
     float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 40%;
+    height: auto;
 }
 
 img[alt$="><"] {
@@ -37,9 +426,11 @@ img[alt$="><"] {
 }
 
 @media (max-width: $large-breakpoint) {
-    img[alt$=">"], img[alt$="<"] {
+    img[align="right"], img[align="left"], img[alt$=">"], img[alt$="<"] {
         display: block;
         float: none;
+        margin: 1rem auto;
+        max-width: 80%;
     }
 }
 
@@ -64,8 +455,84 @@ img.post-featured {
 }
 
 @media (max-width: $large-breakpoint) {
-    body {
-        background-size: cover;
+    .profile-section {
+        margin: 0 auto 2rem;
+        padding-top: 1rem;
+    }
+
+    .profile-name {
+        font-size: 1.6rem;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .social-links-row {
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-links-row:first-of-type .social-link-text {
+        font-size: 1.05rem;
+    }
+
+    .social-links-row:first-of-type .social-link-text svg {
+        width: 1.15rem;
+        height: 1.15rem;
+    }
+
+    .secondary-links {
+        margin-top: 0.5rem;
+        gap: 1rem;
+    }
+
+    .social-link-text {
+        font-size: 1rem;
+    }
+
+    .social-link-text svg {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .research-item {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .research-img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .job-status-banner {
+        margin: 1.5rem auto;
+        padding: 1.25rem 1.5rem 0.25rem;
+    }
+
+    .job-status-text {
+        font-size: 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
     }
 
     .home #sidebar .logo {
