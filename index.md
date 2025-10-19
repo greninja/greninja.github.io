@@ -3,118 +3,58 @@ layout: index
 title: Home
 ---
 
-# About me
+<div class="profile-section">
+  <h1 class="profile-name">Shadab Shaikh</h1>
+  <img src="/assets/img/profile/cropped_circle_image_3.png" class="profile-img" alt="Shadab Shaikh"/>
+  
+  <div class="social-links-row">
+    <a class="social-link-text" href="https://github.com/greninja" target="_blank">
+      {% include svg/github.svg %}
+      <span>GitHub</span>
+    </a>
+    <a class="social-link-text" href="https://twitter.com/ShadabShaikh_3" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/></svg>
+      <span>X</span>
+    </a>
+    <a class="social-link-text" href="https://www.linkedin.com/in/shadab-shaikh-1251bb110/" target="_blank">
+      {% include svg/linkedin.svg %}
+      <span>LinkedIn</span>
+    </a>
+    <a class="social-link-text" href="mailto:sshadab84@gmail.com">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+      <span>Email</span>
+    </a>
+  </div>
+  
+  <div class="social-links-row secondary-links">
+    <a class="social-link-text" href="/projects.html">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h4.586a1 1 0 0 1 .707.293l.914.914a.5.5 0 0 0 .353.146h4.44a1.5 1.5 0 0 1 1.5 1.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 11.5v-9z"/></svg>
+      <span>Projects</span>
+    </a>
+    <a class="social-link-text" href="/books.html">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/></svg>
+      <span>Bookshelf</span>
+    </a>
+  </div>
+</div>
 
-<img src="/assets/img/profile/Profile_4.jpg" align="right" width="250"/>
-<!-- ![Shadab](/assets/img/profile.png)-->
+<div class="job-status-banner">
+  <p class="job-status-text">🚀 Open to joining an early to mid stage startup as a ML / AI / Systems Engineer</p>
+</div>
 
-I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper](https://shadabs.com/research/2024/08/01/ars.html) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
+<!-- I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper](https://shadabs.com/research/2024/08/01/ars.html) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
 
 In a previous life, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
-I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues. -->
 
-Outside of research, I enjoy running, lifting, biking or just about any form of physical activity ([Strava](https://www.strava.com/athletes/24538204)) and reading ([bookshelf](/books.html)).
 
-### Email
-sshadab84 [at] gmail dot com &emsp;
 
-<!-- <hr/>
+I recently completed my Master's in Computer Science at UBC, working with Mathias Lecuyer in the Systopia lab. My Master's thesis was on the topic of adversarial robustness of machine learning models. Before that, I worked on ML security and privacy problems at University of Waterloo, National University of Singapore, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
 
-# Resume
+I'm now looking to transition into more engineering-focused roles — specifically at early- to mid-stage startups where I can build scalable systems and solve ambiguous problems. To support this shift, I've been sharpening my engineering skills through side projects; you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja).
 
-[Download a PDF version](/assets/pdf/cv_rubenwiersma.pdf) of this resume. An overview of my [publications can be found here](/category/research.html).
+I'm drawn to engineering cultures that value growth and impact, and I’m open to working across domains and roles as long as the product is compelling and the team is strong.
 
-<span class="post-type">Education</span>
+Outside of work, I enjoy running, lifting, biking or just about any form of physical activity ([Strava](https://www.strava.com/athletes/24538204)) and reading.
 
-#### [2019 - present] PhD Computer Graphics
-_TU Delft_
-- Studying applications of Computer Graphics and Machine Learning to painting analysis, generation, and rendering.
-- Studying fundamentals of geometric deep learning.
-- Additional responsibilities: lecturing, lab assistance, creating assignments.
-- Toolkit: C++, OpenGL, Python, PyTorch, Blender.
-
-<hr />
-
-#### [2017 - 2019] MSc Computer Science _Cum Laude_
-_TU Delft_
-- Focus on data science and computer graphics.
-- Thesis (grade 9/10) "Harmonic Surface Networks" [[PDF download]](https://repository.tudelft.nl/islandora/object/uuid:931ee653-eb26-40c2-8f54-9c5835fd6fba/datastream/OBJ/download) (Published at SIGGRAPH as a technical paper)
-- Toolkit: C++, Python, PyTorch.
-
-<hr />
-
-#### [2014 - 2017] BSc Computer Science _Cum Laude_
-_TU Delft_
-- Focus on data science and multimedia.
-- Thesis "Automating Valuations for Real-Estate" [[PDF download]](https://repository.tudelft.nl/islandora/object/uuid:d2a020e3-07b3-42c8-a926-0e0e2f7ed6f0/datastream/OBJ/download)
-
-<hr />
-
-#### [2013 - 2014] Propedeuse Industrial Design Engineering _Cum Laude_
-_TU Delft_
-
-<hr />
-
-<span class="post-type">Work</span>
-
-#### [2019] Teaching Assistant
-_TU Delft_
-- Developed assignments for new datamining and Machine Learning courses.
-- Assistance to students during lab sessions.
-- Toolkit: Python, Jupyter, NumPy.
-
-<hr />
-
-#### [2017] Development Internship
-_GeoPhy_
-- End-to-end machine learning solution for estimating real-estate value.
-- Toolkit: Scala, Apache Kafka.
-
-<hr />
-
-#### [2012 - present] Video producer, graphic designer
-_Wiersma Brothers, Torchbearers International, freelance_
-- [Wiersma Brothers](http://wiersmabros.nl): founder, producing video's and [short films](/tags.html#film).
-- [Torchbearers International](https://torchbearers.org): creative director and web development. View [samples of my work](/creative%20portfolio/2018/09/01/Torchbearers-International.html).
-- Freelance work in [graphic design](/tags.html#graphic-design) and web development.
-
-<hr />
-
-#### [2008-2010] Programmer
-_GoPublic_
-- Back-end developer for websites and and business administration webapps.
-- Toolkit: PHP, JavaScript, HTML.
-
-<hr/>
-
-<span class="post-type">Volunteering</span>
-
-#### [2020 - present] Committee member
-_SIGGRAPH research and career development committee_
-- Organizing conference coffee event (social event) at SIGGRAPH '21.
-- Creating and maintaining [committee website](https://research.siggraph.org).
-
-<hr/>
-
-#### [2020 - present] Reviewer
-_ACM Transactions on Graphics, Pacific Graphics_
-
-<hr/>
-
-#### [2013 - 2019] Committee member, committee chair
-_C.S.R. Delft (student association)_
-- Researched and advised on the association leadership election reform.
-- Organised festivities for society anniversary (> 200 participants).
-- Produced [several](/creative%20portfolio/2015/11/01/La-Serenissima.html) [narrative](/creative%20portfolio/2018/11/01/Motown-Fever.html) [short](/creative%20portfolio/2016/05/01/Onontdekt.html) [films](/creative%20portfolio/2015/02/01/Magnifique.html).
-- Produced, designed and launched [anniversary book](/creative%20portfolio/2017/02/01/Pioniers-Book.html).
-- Organized several academic debates and hosted lectures (20-200 audience members).
-
-<hr/>
-
-#### [2014 - 2017] Restaurant staff manager, PR
-_Happietaria, Hartige Samaritaan_<br />
-Pop-up restaurant for charity lasting one month. Hartige Samaritaan was set up together with Refugees.
-- Managed the restaurant staff for the Happietaria (November 2014).
-- Together with all the volunteers for Happietaria, raised €78.913.
-- Communications manager for Hartige Samaritaan (February 2017). -->

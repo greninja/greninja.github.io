@@ -1,34 +1,117 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+---
+layout: default
+title: Bookshelf
+---
 
-<style>
-.content {
-  max-width: 500px;
-  margin: auto;
-}
-</style>
+<div class="books-page">
 
-<body>
+  <h1>Bookshelf</h1>
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <div class="books-intro">
+    <p>My reading is driven by curiosity about how complex systems work — from evolution and economics to geopolitics and the minds of exceptional people. I gravitate toward books that connect ideas across disciplines or challenge what I thought I knew. I’m also aiming to make fiction a bigger part of my reading.</p>
+    <p>Connect with me on <a href="https://www.goodreads.com/user/show/85262689-shadab-shaikh" target="_blank">Goodreads</a> — always happy to chat about books or swap recommendations! 📚</p>
+  </div>
 
-<div class="content">
+  <div class="books-section">
+    <h2>Currently Reading</h2>
+    <div id="gr-currently-reading" class="book-list">
+      <p class="loading">Loading books from Goodreads...</p>
+    </div>
+  </div>
 
-<h1>Books</h1>
-
-<!-- <p> I am fond of autobiographies as they offer me a peek into an individual's thinking process and important life lessons that I can learn. I enjoy (or atleast plan to enjoy :p) books on world economics, geopolitcs, political history and science, self-improvement and any topic that tickles my thinking muscles. Sometimes, I end up reading a specific book to find answers to a bugging question that I might have. Following is a snapshot of my <a href="https://www.goodreads.com/review/list/85262689?shelf=">Goodreads</a> account.</p> -->
-
-<p>Following is a snapshot of my <a style="font-size: 20px;" href="https://www.goodreads.com/user/show/85262689-shadab-shaikh">Goodreads</a> account:</p>
-
-<!-- Widget link for "Currently reading" -->
-<script src="https://www.goodreads.com/review/grid_widget/85262689.Shadab%20's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=20&order=a&shelf=currently-reading&sort=date_added&widget_id=1579339261" type="text/javascript" charset="utf-8"></script>
-
-<br><br>
-
-<!-- Widget link for "Read" -->
-<script src="https://www.goodreads.com/review/grid_widget/85262689.Shadab%20's%20bookshelf:%20read?cover_size=medium&hide_link=&hide_title=&num_books=20&order=a&shelf=read&sort=date_added&widget_id=1579341200" type="text/javascript" charset="utf-8"></script>
+  <div class="books-section">
+    <h2>Finished Books</h2>
+    <div id="gr-read-books" class="book-list">
+      <p class="loading">Loading books from Goodreads...</p>
+    </div>
+  </div>
 
 </div>
 
-</body>
-</html>
+<script>
+// Fetch and display books from Goodreads RSS feeds
+async function loadGoodreadsBooks(shelf, elementId) {
+  try {
+    // Use CORS proxy to fetch Goodreads RSS
+    const rssUrl = `https://www.goodreads.com/review/list_rss/85262689?shelf=${shelf}`;
+    const corsProxy = 'https://api.allorigins.win/raw?url=';
+    const response = await fetch(corsProxy + encodeURIComponent(rssUrl));
+    const xmlText = await response.text();
+    
+    // Parse XML
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+    const items = xmlDoc.querySelectorAll('item');
+    
+    const container = document.getElementById(elementId);
+    
+    if (items && items.length > 0) {
+      const bookList = document.createElement('ul');
+      bookList.className = 'book-items';
+      
+      items.forEach(item => {
+        const title = item.querySelector('title').textContent.trim();
+        const link = item.querySelector('link').textContent.trim();
+        const description = item.querySelector('description').textContent;
+        
+        const li = document.createElement('li');
+        const linkElement = document.createElement('a');
+        linkElement.href = link;
+        linkElement.target = '_blank';
+        
+        let bookTitle = title;
+        let authorName = '';
+        
+        // Try to extract author from description which has more reliable format
+        const authorMatch = description.match(/author:\s*([^<\n]+)/i);
+        if (authorMatch) {
+          authorName = authorMatch[1].trim();
+          // Remove author from title if it exists
+          const byAuthorPattern = new RegExp(`\\s+by\\s+${authorName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i');
+          bookTitle = title.replace(byAuthorPattern, '').trim();
+        } else {
+          // Fallback: Split on the LAST occurrence of " by "
+          const byPattern = /\s+by\s+/gi;
+          const matches = [];
+          let match;
+          while ((match = byPattern.exec(title)) !== null) {
+            matches.push(match.index);
+          }
+          
+          if (matches.length > 0) {
+            const lastByIndex = matches[matches.length - 1];
+            bookTitle = title.substring(0, lastByIndex).trim();
+            authorName = title.substring(lastByIndex).replace(/^\s+by\s+/i, '').trim();
+          }
+        }
+        
+        linkElement.textContent = bookTitle;
+        li.appendChild(linkElement);
+        
+        if (authorName) {
+          const authorSpan = document.createElement('span');
+          authorSpan.className = 'book-author';
+          authorSpan.textContent = ` by ${authorName}`;
+          li.appendChild(authorSpan);
+        }
+        
+        bookList.appendChild(li);
+      });
+      
+      container.innerHTML = '';
+      container.appendChild(bookList);
+    } else {
+      container.innerHTML = '<p>No books found.</p>';
+    }
+  } catch (error) {
+    console.error('Error loading Goodreads books:', error);
+    document.getElementById(elementId).innerHTML = '<p>Unable to load books. <a href="https://www.goodreads.com/review/list/85262689?shelf=' + shelf + '" target="_blank">View on Goodreads</a></p>';
+  }
+}
+
+// Load books when page loads
+document.addEventListener('DOMContentLoaded', function() {
+  loadGoodreadsBooks('currently-reading', 'gr-currently-reading');
+  loadGoodreadsBooks('read', 'gr-read-books');
+});
+</script>
