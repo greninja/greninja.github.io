@@ -5,7 +5,7 @@ title: Home
 
 <div class="profile-section">
   <h1 class="profile-name">Shadab Shaikh</h1>
-  <img src="/assets/img/profile/cropped_circle_image_3.png" class="profile-img" alt="Shadab Shaikh"/>
+  <img src="/assets/img/profile/cropped_circle_image_2.png" class="profile-img" alt="Shadab Shaikh"/>
   
   <div class="social-links-row">
     <a class="social-link-text" href="https://github.com/greninja" target="_blank">
@@ -49,8 +49,7 @@ In a previous life, I completed my undergraduate (majoring in Computer Engineeri
 I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues. -->
 
 
-
-I recently completed my Master's in Computer Science at UBC, working with Mathias Lecuyer in the Systopia lab. My Master's thesis was on the topic of adversarial robustness of machine learning models. Before that, I worked on ML security and privacy problems at University of Waterloo, National University of Singapore, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+I recently completed my Master's in Computer Science at UBC, working with Mathias Lécuyer in the Systopia lab. My Master's thesis was on the topic of adversarial robustness of machine learning models. Before that, I worked on ML security and privacy problems at University of Waterloo, National University of Singapore, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
 
 I'm now looking to transition into more engineering-focused roles — specifically at early- to mid-stage startups where I can build scalable systems and solve ambiguous problems. To support this shift, I've been sharpening my engineering skills through side projects; you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja).
 
