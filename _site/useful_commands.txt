@@ -1,9 +1,0 @@
-bundle install --> to install DEPENDENCIES listed in Gemfile.lock
-gem uninstall jekyll -v 4.3.3 --> this is just an example; to uninstall a particular gem version if its causing conflict
-bundle exec jekyll build --> not sure what this is forwardable
-
-# before pushing code to github, you need to "compile" the webiste, use:
-jekyll build
-
-# to test locally
-bundle exec jekyll serve
