@@ -46,14 +46,15 @@ title: Home
 
 In a previous life, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
 
-I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues. -->
+I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.-->
 
 
-I recently completed my Master's in Computer Science at UBC, working with Mathias Lécuyer in the Systopia lab. My Master's thesis was on the topic of adversarial robustness of machine learning models. Before that, I worked on ML security and privacy problems at University of Waterloo, National University of Singapore, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.
+Hey there 👋 I recently finished my Master’s in Computer Science at UBC, where I spent most of my time exploring adversarial machine learning in the Systopia Lab.
 
-I'm now looking to transition into more engineering-focused roles — specifically at early- to mid-stage startups where I can build scalable systems and solve ambiguous problems. To support this shift, I've been sharpening my engineering skills through side projects; you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja).
+Before that, I got to work on ML security and privacy at Waterloo, NUS, and UCLA. Each experience was a new adventure that sharpened my thinking.
 
-I'm drawn to engineering cultures that value growth and impact, and I’m open to working across domains and roles as long as the product is compelling and the team is strong.
+I’m now looking to transition into more engineering-focused roles, specifically at early- to mid-stage startups. I love the pace, the chaos, and the joy of seeing something you built actually make someone’s life better.
 
-Outside of work, I enjoy running, lifting, biking or just about any form of physical activity ([Strava](https://www.strava.com/athletes/24538204)) and reading.
+I’ve been polishing my engineering skills through a bunch of side projects (you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja)).
 
+I’m drawn to small teams that care about growth and impact. I am open to exploring different domains and roles, as long as the product is meaningful and the team makes Mondays something to look forward to.
