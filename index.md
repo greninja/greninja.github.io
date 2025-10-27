@@ -51,10 +51,10 @@ I carried out these projects during my visits to *University of Waterloo* (with 
 
 Hey there 👋 I recently finished my Master’s in Computer Science at UBC, where I spent most of my time exploring adversarial machine learning in the Systopia Lab.
 
-Before that, I got to work on ML security and privacy at Waterloo, NUS, and UCLA. Each experience was a new adventure that sharpened my thinking.
+Before that, I got to work on some interesting projects related to ML security and privacy at Waterloo, NUS, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues, each of whom sharpened my thinking in new and unexpected ways.
 
-I’m now looking to transition into more engineering-focused roles, specifically at early- to mid-stage startups. I love the pace, the chaos, and the joy of seeing something you built actually make someone’s life better.
+I’m now looking to transition into more engineering-focused roles, specifically at early- to mid-stage startups. I love the pace, the chaos, and the joy of seeing something you built actually make someone’s life better. To support this shift, I’ve been polishing my engineering skills through a bunch of side projects (you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja)).
 
-I’ve been polishing my engineering skills through a bunch of side projects (you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja)).
+I’m drawn to small teams that care about growth and impact. I am open to exploring different domains and roles, as long as the product is meaningful, compelling, and the team makes Mondays something to look forward to. If you think I'd be a good fit for your team, please feel free to reach out to me at my email addess listed above.
 
-I’m drawn to small teams that care about growth and impact. I am open to exploring different domains and roles, as long as the product is meaningful and the team makes Mondays something to look forward to.
+In my free time, I enjoy running, lifting, biking, and reading books.
