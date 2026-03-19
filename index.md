@@ -49,7 +49,7 @@ In a previous life, I completed my undergraduate (majoring in Computer Engineeri
 I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.-->
 
 
-Hey there 👋 I recently finished my Master’s in Computer Science at UBC, where I spent most of my time exploring adversarial machine learning in the Systopia Lab.
+Hey👋 I finished my Master’s in Computer Science at UBC, where I spent most of my time exploring adversarial machine learning in the Systopia Lab.
 
 Before that, I got to work on some interesting projects related to ML security and privacy at Waterloo, NUS, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues, each of whom sharpened my thinking in new and unexpected ways.
 

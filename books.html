@@ -8,11 +8,10 @@ title: Bookshelf
   <h1>Bookshelf</h1>
 
   <div class="books-section">
-    <h2>Currently Reading</h2>
+    <h2>Reading</h2>
     <div id="gr-currently-reading" class="book-list">
       <ul class="book-items">
-        {% assign current = site.data.bookshelf.currently_reading %}
-        {% for book in current %}
+        {% for book in site.data.bookshelf.currently_reading %}
         <li>
           <a href="{{ book.url | xml_escape }}" target="_blank" rel="noopener noreferrer">{{ book.title | escape }}</a>
           {% if book.author %}
@@ -27,11 +26,10 @@ title: Bookshelf
   </div>
 
   <div class="books-section">
-    <h2>Finished Books</h2>
+    <h2>Read</h2>
     <div id="gr-read-books" class="book-list">
       <ul class="book-items">
-        {% assign finished = site.data.bookshelf.read %}
-        {% for book in finished %}
+        {% for book in site.data.bookshelf.read %}
         <li>
           <a href="{{ book.url | xml_escape }}" target="_blank" rel="noopener noreferrer">{{ book.title | escape }}</a>
           {% if book.author %}
