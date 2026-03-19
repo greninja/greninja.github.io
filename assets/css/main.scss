@@ -3,18 +3,42 @@
 # only main files contain this front matter, not partials.
 ---
 
+// ---------------------------------------------------------------------------
+// Theme inspired by https://sachaservanschreiber.com/ (see their main.css)
+// Warm page bg, Source Serif stack, teal links (#1a5276 on #fff2e5).
+// ---------------------------------------------------------------------------
+$body-bg: #fff2e5 !default;
+$body-color: #2c3e50 !default;
+$heading-color: #1a202c !default;
+$link-color: #1a5276 !default;
+$border-color: #edf2f7 !default;
+$root-font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif !default;
+$root-line-height: 1.6 !default;
+$gray-1: #fff9f2 !default;
+$gray-2: #edf2f7 !default;
+$gray-4: #718096 !default;
+$gray-5: #4a5568 !default;
+$gray-6: #1a202c !default;
+
 $sidebar-bg-color: #ffffff !default;
-$sidebar-fg-color: #2b375c !default;
+$sidebar-fg-color: #1a202c !default;
 $sidebar-sticky: true !default;
 $layout-reverse: false !default;
-$link-color: #268bd2 !default;
 $large-breakpoint: 49rem !default;
 
+// Local aliases for one-off rules below
+$theme-link-hover: #144a66;
+
+html {
+    background: $body-bg !important;
+    min-height: 100%;
+}
 
 body {
-    background: #ffffff !important;
+    background: $body-bg !important;
     background-image: none !important;
-    background-color: #ffffff !important;
+    background-color: $body-bg !important;
+    color: $body-color;
     display: block !important;
 }
 
@@ -34,7 +58,7 @@ body {
 .profile-name {
     font-size: 2rem;
     font-weight: 600;
-    color: #2b375c;
+    color: #1a202c;
     margin: 0 0 2rem 0;
 }
 
@@ -66,8 +90,8 @@ body {
 }
 
 .social-links-row:first-of-type .social-link-text svg {
-    width: 1.35rem;
-    height: 1.35rem;
+    width: 1.45rem;
+    height: 1.45rem;
 }
 
 .secondary-links {
@@ -79,45 +103,48 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    color: #2b375c;
+    color: #111827;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.15rem;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 .social-link-text svg {
-    width: 1.2rem;
-    height: 1.2rem;
-    fill: #2b375c;
-    transition: fill 0.2s ease;
+    width: 1.3rem;
+    height: 1.3rem;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: color 0.2s ease;
 }
 
 .social-link-text:hover {
-    color: #268bd2;
-}
-
-.social-link-text:hover svg {
-    fill: #268bd2;
+    color: $theme-link-hover;
 }
 
 /* Books Page */
 .books-page {
     max-width: 100% !important;
+    font-size: 1.15rem;
 }
 
 .books-page h1 {
     text-align: center;
-    color: #2b375c;
+    color: #1a202c;
     margin-bottom: 1.5rem;
+    font-size: 2.55rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
 }
 
 .books-intro {
     max-width: 700px;
     margin: 0 auto 3rem;
     text-align: center;
-    color: #515151;
-    line-height: 1.7;
+    color: #4a5568;
+    line-height: 1.75;
+    font-size: 1.07rem;
+    font-weight: 500;
 }
 
 .books-intro p {
@@ -125,8 +152,8 @@ body {
 }
 
 .books-intro a {
-    color: #268bd2;
-    font-weight: 500;
+    color: #1a5276;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -140,11 +167,13 @@ body {
 }
 
 .books-section h2 {
-    color: #2b375c;
-    font-size: 1.5rem;
+    color: #1a202c;
+    font-size: 2.35rem;
+    font-weight: 600;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 1px solid #edf2f7;
+    letter-spacing: -0.015em;
 }
 
 .book-list {
@@ -163,33 +192,34 @@ body {
 }
 
 .book-items li {
-    padding: 0.6rem 0;
-    line-height: 1.6;
+    padding: 0.65rem 0;
+    line-height: 1.65;
     margin-left: 0.5rem;
 }
 
 .book-items a {
-    color: #268bd2;
-    font-weight: 500;
+    color: #1a5276;
+    font-weight: 600;
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 1.3rem;
 }
 
 .book-items a:hover {
     text-decoration: underline;
-    color: #1c6fa0;
+    color: $theme-link-hover;
 }
 
 .book-author {
-    color: #666;
-    font-size: 0.95rem;
+    color: #555;
+    font-size: 1.18rem;
+    font-weight: 500;
     margin-left: 0.3rem;
 }
 
 /* Projects Page */
 .projects-page h1 {
     text-align: center;
-    color: #2b375c;
+    color: #1a202c;
     margin-bottom: 2rem;
 }
 
@@ -219,7 +249,7 @@ body {
 /* Research Section */
 .container h2 {
     text-align: center;
-    color: #2b375c;
+    color: #1a202c;
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
@@ -262,22 +292,22 @@ body {
 }
 
 .research-content h3 a {
-    color: #2b375c;
+    color: #1a202c;
     text-decoration: none;
 }
 
 .research-content h3 a:hover {
-    color: #268bd2;
+    color: #1a5276;
 }
 
 .research-meta {
     margin-bottom: 0.75rem;
-    color: #515151;
+    color: #4a5568;
     font-size: 0.95rem;
 }
 
 .research-abstract {
-    color: #767676;
+    color: #718096;
     font-size: 0.95rem;
     margin-bottom: 0.75rem;
 }
@@ -287,7 +317,7 @@ body {
 }
 
 .research-links a {
-    color: #268bd2;
+    color: #1a5276;
     text-decoration: none;
     margin-right: 0.75rem;
     font-weight: 500;
@@ -299,8 +329,8 @@ body {
 
 /* Job Status Banner */
 .job-status-banner {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border: 1px solid #dee2e6;
+    background: linear-gradient(135deg, #fff9f2 0%, #ffe8d6 100%);
+    border: 1px solid #e2e8f0;
     border-radius: 12px;
     padding: 1.5rem 2rem 0.3rem;
     margin: 2rem auto;
@@ -310,10 +340,11 @@ body {
 }
 
 .job-status-text {
+    font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
-    color: #2b375c;
+    color: #1a202c;
     margin: 0 0 1.5rem 0;
     line-height: 1.4;
 }
@@ -337,29 +368,29 @@ body {
 }
 
 .cta-button.primary {
-    background: #2b375c;
+    background: #1a202c;
     color: #ffffff;
-    border-color: #2b375c;
+    border-color: #1a202c;
 }
 
 .cta-button.primary:hover {
-    background: #1a2a4a;
-    border-color: #1a2a4a;
+    background: #0f3549;
+    border-color: #0f3549;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(43, 55, 92, 0.3);
+    box-shadow: 0 4px 12px rgba(26, 82, 118, 0.3);
 }
 
 .cta-button.secondary {
     background: transparent;
-    color: #2b375c;
-    border-color: #2b375c;
+    color: #1a202c;
+    border-color: #1a202c;
 }
 
 .cta-button.secondary:hover {
-    background: #2b375c;
+    background: #1a202c;
     color: #ffffff;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(43, 55, 92, 0.2);
+    box-shadow: 0 4px 12px rgba(26, 82, 118, 0.2);
 }
 
 /* Adjust container to remove sidebar margin */
@@ -481,8 +512,8 @@ img.post-featured {
     }
 
     .social-links-row:first-of-type .social-link-text svg {
-        width: 1.15rem;
-        height: 1.15rem;
+        width: 1.22rem;
+        height: 1.22rem;
     }
 
     .secondary-links {
@@ -495,8 +526,8 @@ img.post-featured {
     }
 
     .social-link-text svg {
-        width: 1.1rem;
-        height: 1.1rem;
+        width: 1.18rem;
+        height: 1.18rem;
     }
 
     .container {
@@ -553,3 +584,9 @@ img.post-featured {
   }
 
 @import "hydeout";
+
+// Hydeout _layout.scss hardcodes Ubuntu on `body`, which would override Source Serif
+html,
+body {
+    font-family: $root-font-family !important;
+}
