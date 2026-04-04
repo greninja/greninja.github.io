@@ -16,9 +16,10 @@ title: Home
       {% include svg/linkedin.svg %}
       <span>LinkedIn</span>
     </a>
-    <a class="social-link-text" href="mailto:sshadab84@gmail.com">
+    <a class="social-link-text" id="email-btn" href="#" data-u="sshadab84" data-d="gmail.com" aria-label="Copy email address">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
       <span>Email</span>
+      <span class="email-tooltip" id="email-tooltip" role="tooltip"></span>
     </a>
     <a class="social-link-text" href="/projects.html">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h4.586a1 1 0 0 1 .707.293l.914.914a.5.5 0 0 0 .353.146h4.44a1.5 1.5 0 0 1 1.5 1.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 11.5v-9z"/></svg>

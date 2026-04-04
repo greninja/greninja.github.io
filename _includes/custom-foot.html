@@ -1,1 +1,64 @@
 <!-- Optional footer content -->
+<style>
+  #email-btn { position: relative; }
+  .email-tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    font-size: 0.78rem;
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .email-tooltip.visible { opacity: 1; }
+  .email-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #222;
+  }
+</style>
+<script>
+(function () {
+  var btn = document.getElementById('email-btn');
+  var tip = document.getElementById('email-tooltip');
+  if (!btn || !tip) return;
+
+  var addr = btn.dataset.u + '@' + btn.dataset.d;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(addr).then(showCopied, showAddr);
+    } else {
+      showAddr();
+    }
+  });
+
+  function showCopied() {
+    show('Copied: ' + addr);
+  }
+
+  function showAddr() {
+    show(addr);
+  }
+
+  function show(msg) {
+    tip.textContent = msg;
+    tip.classList.add('visible');
+    clearTimeout(btn._tipTimer);
+    btn._tipTimer = setTimeout(function () {
+      tip.classList.remove('visible');
+    }, 3000);
+  }
+})();
+</script>
