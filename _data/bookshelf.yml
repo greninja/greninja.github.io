@@ -1,8 +1,11 @@
 # Bookshelf — Jekyll reads this at build time (see books.html).
 # Edit by hand, or overwrite from Goodreads with: python3 generate_books.py
-# Last generated: 2026-03-19T20:19:41.978599+00:00
+# Last generated: 2026-04-29T20:49:28.892425+00:00
 
 currently_reading:
+  - title: "Planet Money: A Guide to the Economic Forces That Shape Your Life"
+    author: "Alex Mayyasi"
+    url: "https://www.goodreads.com/review/show/8561999073?utm_medium=api&utm_source=rss"
   - title: "The Dark Forest (Remembrance of Earth’s Past, #2)"
     author: "Liu Cixin"
     url: "https://www.goodreads.com/review/show/8305900360?utm_medium=api&utm_source=rss"
