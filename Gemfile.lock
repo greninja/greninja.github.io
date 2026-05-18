@@ -107,9 +107,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.1.4)
+  bundler (>= 2.2.33)
   jekyll-theme-hydeout!
   webrick
 
 BUNDLED WITH
-   2.1.4
+   2.5.23
