@@ -135,6 +135,11 @@ body.home .content > p {
     }
 }
 
+/* Home: underline body-prose links so they read as clickable */
+body.home .content > p a {
+    text-decoration: underline;
+}
+
 /* Books Page */
 .books-page {
     max-width: 100% !important;

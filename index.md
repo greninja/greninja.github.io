@@ -46,13 +46,14 @@ In a previous life, I completed my undergraduate (majoring in Computer Engineeri
 
 I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.-->
 
+Hey 👋 I’ve spent the past few years working broadly in Trustworthy AI, both during my Master’s at UBC and through research visits at a few labs across North America and Asia. Along the way, I’ve been incredibly lucky to learn from mentors and colleagues who challenged my assumptions, sharpened my thinking, and shaped how I approach research and engineering.
 
-Hey👋 I finished my Master’s in Computer Science at UBC, where I spent most of my time exploring adversarial machine learning in the Systopia Lab.
+In a previous life during my undergrad, I took a brief detour into systems biology, using ideas from formal verification to study gene regulatory networks and synthesize cell-fate determination models of C. elegans earthworm. I hope to return to similarly exciting research questions someday.
 
-Before that, I got to work on some interesting projects related to ML security and privacy at Waterloo, NUS, and UCLA. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues, each of whom sharpened my thinking in new and unexpected ways.
+Most recently, I worked with the lovely folks at [Transformer Lab](https://github.com/transformerlab/transformerlab-app), expanding their platform’s scope and polishing its UX so AI researchers can seamlessly train, evaluate, and scale models from local hardware to GPU clusters.
 
-I’m now looking to transition into more engineering-focused roles, specifically at early- to mid-stage startups. I love the pace, the chaos, and the joy of seeing something you built actually make someone’s life better. To support this shift, I’ve been polishing my engineering skills through a bunch of side projects (you can find them on my [Projects](/projects.html) page or on my [GitHub](https://github.com/greninja)).
+## What I’m looking for next
 
-I’m drawn to small teams that care about growth and impact. I am open to exploring different domains and roles, as long as the product is meaningful, compelling, and the team makes Mondays something to look forward to. If you think I'd be a good fit for your team, please feel free to reach out to me at my email addess listed above.
+I’m most excited by roles at early- to mid-stage startups that sit somewhere between research and engineering. I like the pace, the chaos, and the joy of building something that actually makes someone’s life better. To sharpen those skills, I’ve been working on side projects ([Projects](/projects.html) · [GitHub](https://github.com/greninja)).
 
-In my free time, I enjoy running, lifting, biking, and reading books.
+I’m drawn to small teams that care about growth and impact, and I’m open across domains as long as the product is meaningful and the team makes Mondays worth looking forward to. If that sounds like your team, drop me a line at my email above.
