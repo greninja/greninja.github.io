@@ -1,8 +1,11 @@
 # Bookshelf — Jekyll reads this at build time (see books.html).
 # Edit by hand, or overwrite from Goodreads with: python3 generate_books.py
-# Last generated: 2026-07-11T20:32:30.231832+00:00
+# Last generated: 2026-07-14T21:57:15.820419+00:00
 
 currently_reading:
+  - title: "The Sixth Extinction: An Unnatural History"
+    author: "Elizabeth Kolbert"
+    url: "https://www.goodreads.com/review/show/8714138686?utm_medium=api&utm_source=rss"
   - title: "The Gene: An Intimate History"
     author: "Siddhartha Mukherjee"
     url: "https://www.goodreads.com/review/show/3210888371?utm_medium=api&utm_source=rss"
