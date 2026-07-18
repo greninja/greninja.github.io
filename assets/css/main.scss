@@ -348,6 +348,42 @@ body.home .content > p a {
     text-decoration: underline;
 }
 
+/* Lead publication (Master's Thesis) — typographic emphasis, no box */
+.lead-publication {
+    margin-bottom: 2.5rem;
+}
+
+.lead-publication .research-content h3 {
+    font-size: 1.5rem;
+    line-height: 1.35;
+    margin-bottom: 0.5rem;
+}
+
+.thesis-venue {
+    color: $link-color;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.pub-venue {
+    color: $gray-5;
+    font-style: italic;
+}
+
+/* Section headings — quiet label above a hairline rule */
+.projects-page .section-heading {
+    text-align: center;
+    color: #12161d;
+    font-size: 1.65rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 3.25rem 0 1.5rem;
+}
+
+.projects-page .section-heading:first-of-type {
+    margin-top: 1.5rem;
+}
+
 /* Job Status Banner */
 .job-status-banner {
     background: linear-gradient(135deg, #fff9f2 0%, #ffe8d6 100%);
