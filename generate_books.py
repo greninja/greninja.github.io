@@ -25,6 +25,13 @@ GOODREADS_USER_ID = "85262689"
 # Safety only: stop if Goodreads keeps returning pages (should not happen).
 MAX_RSS_PAGES = 10_000
 
+# (Goodreads shelf slug, key written to _data/bookshelf.yml) in page order.
+SHELVES = [
+    ("currently-reading", "currently_reading"),
+    ("read", "read"),
+    ("did-not-finish", "did_not_finish"),
+]
+
 
 @dataclass(frozen=True)
 class Book:
@@ -67,6 +74,14 @@ def extract_author_and_title(title: str, description: str) -> tuple[str, str]:
     return title, ""
 
 
+def shelf_of_feed(xml_text: str) -> str:
+    """Shelf name Goodreads says this feed is for, from `Name's bookshelf: <shelf>`."""
+    root = ET.fromstring(xml_text)
+    channel_title = root.findtext(".//channel/title") or ""
+    _, _, shelf = channel_title.partition("bookshelf:")
+    return shelf.strip()
+
+
 def parse_rss_page(xml_text: str) -> list[Book]:
     """All `<item>` elements on this RSS page (one Goodreads `page=`)."""
     root = ET.fromstring(xml_text)
@@ -88,6 +103,14 @@ def fetch_entire_shelf(shelf: str, timeout_s: int) -> list[Book]:
     page = 1
     while page <= MAX_RSS_PAGES:
         xml_text = fetch_rss_xml(shelf, page=page, timeout_s=timeout_s)
+        # An unknown shelf slug doesn't 404 — Goodreads quietly serves every book
+        # instead, so trust the feed's own shelf name over the one we asked for.
+        served_shelf = shelf_of_feed(xml_text)
+        if served_shelf != shelf:
+            raise RuntimeError(
+                f"Goodreads served shelf {served_shelf!r} for requested shelf {shelf!r} — "
+                f"the shelf was probably renamed or deleted. Fix SHELVES before syncing."
+            )
         page_books = parse_rss_page(xml_text)
         if not page_books:
             break
@@ -111,20 +134,16 @@ def write_bookshelf_yaml(path: Path, shelves_out: dict[str, list[dict[str, str]]
         "# Edit by hand, or overwrite from Goodreads with: python3 generate_books.py",
         f"# Last generated: {datetime.now(timezone.utc).isoformat()}",
         "",
-        "currently_reading:",
     ]
-    for b in shelves_out["currently-reading"]:
-        lines.append(f"  - title: {json.dumps(b['title'], ensure_ascii=False)}")
-        lines.append(f"    author: {json.dumps(b['author'], ensure_ascii=False)}")
-        lines.append(f"    url: {json.dumps(b['link'], ensure_ascii=False)}")
-    lines.append("")
-    lines.append("read:")
-    for b in shelves_out["read"]:
-        lines.append(f"  - title: {json.dumps(b['title'], ensure_ascii=False)}")
-        lines.append(f"    author: {json.dumps(b['author'], ensure_ascii=False)}")
-        lines.append(f"    url: {json.dumps(b['link'], ensure_ascii=False)}")
+    for shelf, yaml_key in SHELVES:
+        lines.append(f"{yaml_key}:")
+        for b in shelves_out[shelf]:
+            lines.append(f"  - title: {json.dumps(b['title'], ensure_ascii=False)}")
+            lines.append(f"    author: {json.dumps(b['author'], ensure_ascii=False)}")
+            lines.append(f"    url: {json.dumps(b['link'], ensure_ascii=False)}")
+        lines.append("")
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    path.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
 
 
 def main() -> int:
@@ -136,7 +155,7 @@ def main() -> int:
     yaml_path = repo_root / "_data" / "bookshelf.yml"
 
     shelves_out: dict[str, list[dict[str, str]]] = {}
-    for shelf in ["currently-reading", "read"]:
+    for shelf, _yaml_key in SHELVES:
         books = fetch_entire_shelf(shelf, timeout_s=args.timeout)
         shelves_out[shelf] = [{"title": b.title, "author": b.author, "link": b.link} for b in books]
         print(f"  {shelf!r}: {len(books)} book(s) from RSS")

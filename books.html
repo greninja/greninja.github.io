@@ -43,4 +43,22 @@ title: Bookshelf
     </div>
   </div>
 
+  {% if site.data.bookshelf.did_not_finish.size > 0 %}
+  <div class="books-section">
+    <h2>Did Not Finish</h2>
+    <div id="gr-did-not-finish" class="book-list">
+      <ul class="book-items">
+        {% for book in site.data.bookshelf.did_not_finish %}
+        <li>
+          <a href="{{ book.url | xml_escape }}" target="_blank" rel="noopener noreferrer">{{ book.title | escape }}</a>
+          {% if book.author %}
+          <span class="book-author"> by {{ book.author | escape }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+
 </div>
