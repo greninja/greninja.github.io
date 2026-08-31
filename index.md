@@ -56,4 +56,4 @@ Most recently, I worked with the lovely folks at [Transformer Lab](https://githu
 
 I’m most excited by roles at early- to mid-stage startups that sit somewhere between research and engineering. I like the pace, the chaos, and the joy of building something that actually makes someone’s life better. To sharpen those skills, I’ve been working on side projects ([Projects](/projects.html) · [GitHub](https://github.com/greninja)).
 
-I’m drawn to small teams that care about growth and impact, and I’m open across domains as long as the product is meaningful and the team makes Mondays worth looking forward to. I’m also open to short-term contract gigs if you need an extra pair of hands on a focused project. If that sounds like your team, drop me a line at my email above.
+I’m drawn to small teams that care about growth and impact, and I’m open to working across domains as long as the product is meaningful and the team makes Mondays worth looking forward to. I’m also open to short-term contract gigs if you need an extra pair of hands on a focused project. If that sounds like your team, drop me a line at my email above.
