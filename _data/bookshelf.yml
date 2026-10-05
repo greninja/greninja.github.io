@@ -1,6 +1,6 @@
 # Bookshelf — Jekyll reads this at build time (see books.html).
 # Edit by hand, or overwrite from Goodreads with: python3 generate_books.py
-# Last generated: 2026-08-31T05:02:43.227727+00:00
+# Last generated: 2026-10-05T14:40:04.309686+00:00
 
 currently_reading:
   - title: "This Time Is Different: Eight Centuries of Financial Folly"
@@ -9,11 +9,11 @@ currently_reading:
   - title: "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma"
     author: "Bessel van der Kolk"
     url: "https://www.goodreads.com/review/show/7458636115?utm_medium=api&utm_source=rss"
+
+read:
   - title: "The Gene: An Intimate History"
     author: "Siddhartha Mukherjee"
     url: "https://www.goodreads.com/review/show/3210888371?utm_medium=api&utm_source=rss"
-
-read:
   - title: "Chronicle of a Death Foretold"
     author: "Gabriel García Márquez"
     url: "https://www.goodreads.com/review/show/8805227372?utm_medium=api&utm_source=rss"
