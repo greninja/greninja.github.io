@@ -237,6 +237,50 @@ body.home .content > p a {
     margin-left: 0.3rem;
 }
 
+@media (max-width: $large-breakpoint) {
+    .books-page {
+        font-size: 1rem;
+    }
+
+    .books-page h1 {
+        font-size: 2.15rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .books-section {
+        margin-bottom: 2.25rem;
+    }
+
+    .books-section h2 {
+        font-size: 1.875rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.4rem;
+    }
+
+    .book-list {
+        margin: 1rem 0;
+    }
+
+    .book-items {
+        padding-left: 1.25rem;
+    }
+
+    .book-items li {
+        padding: 0.45rem 0;
+        line-height: 1.55;
+        margin-left: 0.25rem;
+    }
+
+    .book-items a {
+        font-size: 1.125rem;
+    }
+
+    .book-author {
+        font-size: 1rem;
+        margin-left: 0.2rem;
+    }
+}
+
 /* Projects Page */
 .projects-page h1 {
     text-align: center;
