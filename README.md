@@ -1,6 +1,6 @@
 # Personal webpage
 
-Visit [shadabs.com](https://shadabs.com/) (based on Ruben Wiersma's [page](https://github.com/rubenwiersma/rubenwiersma.github.io)).
+Visit [shadabs.com](https://shadabs.com/).
 
 To locally test webpage deployment, run `bundle exec jekyll serve`
 
