@@ -46,11 +46,10 @@ Most recently, I worked with the lovely folks at [Transformer Lab](https://githu
 
 ## What I’m looking for next
 
-I’m most excited by roles at early- to mid-stage startups that sit somewhere between research and engineering. I like the pace, the chaos, and the joy of building something that actually makes someone’s life better.
+I’m drawn to early- and mid-stage startups and small research teams, including those within larger organizations. I like the pace, a bit of chaos, and the satisfaction of building something that makes someone’s life easier.
 
-I’m drawn to small teams that care about growth and impact, and I’m open to working across domains as long as the product is meaningful and the team makes Mondays worth looking forward to. I’m also open to short-term contract gigs if you need an extra pair of hands on a focused project. If that sounds like your team, I’d love to hear from you.
+I’m happiest when I can move between research and engineering. I like designing experiments to answer a question and building systems that put the answer to use. I’d also be happy in a role focused entirely on either side. What matters most to me is the problem I get to work on.
 
-<section class="home-contact-section" id="contact" aria-labelledby="home-contact-title">
-  <h2 id="home-contact-title">Contact</h2>
-  <p>For work, collaborations, or just to say hello, email is the best way to reach me: <span class="home-contact-address">sshadab84 [at] gmail [dot] com</span></p>
-</section>
+My research background in Trustworthy AI naturally draws me toward AI safety. One question I’d like to work on is which safeguards hold up once people can download and modify a model themselves. As open-weight models approach frontier performance in areas like cyber offense, I want to help evaluate those risks before release and develop safeguards that still work after release. I’m also excited about applying AI to problems in computational biology.
+
+I’m open to other domains, too. What matters to me most is doing meaningful work with people I enjoy working with and can learn from.
