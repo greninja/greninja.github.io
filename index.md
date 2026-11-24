@@ -46,10 +46,8 @@ Most recently, I worked with the lovely folks at [Transformer Lab](https://githu
 
 ## What I’m looking for next
 
-I’m drawn to early- and mid-stage startups and small research teams, including those within larger organizations. I like the pace, a bit of chaos, and the satisfaction of building something that makes someone’s life easier.
+I’d love to work at an early- or mid-stage startup or on a small research team. Ideally, I’d get to do a mix of research and engineering. I like having a hunch about why a model behaves a certain way and figuring out how to test it. I get just as much satisfaction from building something that someone else ends up using in their day-to-day work. I’d happily do either full-time.
 
-I’m happiest when I can move between research and engineering. I like designing experiments to answer a question and building systems that put the answer to use. I’d also be happy in a role focused entirely on either side. What matters most to me is the problem I get to work on.
+A lot of my research has been about how well defenses for ML models hold up, so AI safety is where my mind goes first. I’m especially curious about open-weight models. Once someone can download a model and change it themselves, which safeguards can we still count on? As these models get closer to frontier performance in areas like cyber offense, I’d like to work on how we assess those risks before release and what we can build into a model that will still help afterward.
 
-My research background in Trustworthy AI naturally draws me toward AI safety. One question I’d like to work on is which safeguards hold up once people can download and modify a model themselves. As open-weight models approach frontier performance in areas like cyber offense, I want to help evaluate those risks before release and develop safeguards that still work after release. I’m also excited about applying AI to problems in computational biology.
-
-I’m open to other domains, too. What matters to me most is doing meaningful work with people I enjoy working with and can learn from.
+Computational biology is another area I’d be excited to work in, and I’m open to others. For me, a lot comes down to the day-to-day work and who I get to do it with. I want to work on something that matters to someone, with people whose company I enjoy and whose judgment I can learn from.
