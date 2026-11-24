@@ -51,3 +51,8 @@ I’d love to work at an early- or mid-stage startup or on a small research team
 A lot of my research has been about how well defenses for ML models hold up, so AI safety is where my mind goes first. I’m especially curious about open-weight models. Once someone can download a model and change it themselves, which safeguards can we still count on? As these models get closer to frontier performance in areas like cyber offense, I’d like to work on how we assess those risks before release and what we can build into a model that will still help afterward.
 
 Computational biology is another area I’d be excited to work in, and I’m open to others. For me, a lot comes down to the day-to-day work and who I get to do it with. I want to work on something that matters to someone, with people whose company I enjoy and whose judgment I can learn from.
+
+<section class="home-contact-section" id="contact" aria-labelledby="home-contact-title">
+  <h2 id="home-contact-title">Contact</h2>
+  <p>For work, collaborations, or just to say hello, email is the best way to reach me: <span class="home-contact-address">sshadab84 [at] gmail [dot] com</span></p>
+</section>
