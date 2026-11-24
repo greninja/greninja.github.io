@@ -32,12 +32,6 @@ title: Home
   <p class="job-status-text">🚀 Open to full-time as well as short-term contract roles in ML / AI / Systems Engineering</p>
 </div>
 
-<!-- I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper](https://shadabs.com/research/2024/08/01/ars.html) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
-
-In a previous life, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
-
-I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.-->
-
 Hey 👋 I am Shadab. I’ve spent the past few years working broadly in Trustworthy AI, both during my Master’s at UBC and through research visits at a few labs across North America and Asia. Along the way, I’ve been incredibly lucky to learn from mentors and colleagues who sharpened my thinking and shaped how I approach research and engineering.
 
 In a previous life I took a brief detour into systems biology, using ideas from formal verification to study gene regulatory networks and synthesize cell-fate determination models of C. elegans earthworm. I hope to return to similarly exciting research questions someday.
@@ -48,7 +42,7 @@ Most recently, I worked with the lovely folks at [Transformer Lab](https://githu
 
 I’d love to work at an early- or mid-stage startup or on a small research team. My ideal role would involve a mix of research and engineering. I like designing and running experiments to understand why a model or system behaves the way it does, then using what I learn to improve it.
 
-A lot of my research has been about how well defenses for ML models hold up, so AI safety is where my mind goes first. I’m especially curious about open-weight models. Once someone can download a model and change it themselves, which safeguards can we still count on? As these models get closer to frontier performance in areas like cyber offense, I’d like to help assess those risks before release and develop safeguards that still work afterward.
+A lot of my research has been about how well defenses for ML models hold up, so AI safety is where my mind goes first. I’m especially curious about open-source models. Once someone can download a model and change it themselves, which safeguards can we still count on? As these models get closer to frontier performance in areas like cyber offense, I’d like to help assess those risks before release and develop safeguards that still work afterward.
 
 I’m open to other areas, too. For me, a lot comes down to the day-to-day work and who I get to do it with.
 
@@ -56,3 +50,14 @@ I’m open to other areas, too. For me, a lot comes down to the day-to-day work 
   <h2 id="home-contact-title">Contact</h2>
   <p>For work, collaborations, or just to say hello, email is the best way to reach me: <span class="home-contact-address">sshadab84 [at] gmail [dot] com</span></p>
 </section>
+
+
+<!-- commented out -->
+
+<!-- I finished my Masters (thesis) in Computer Science from the [University of British Columbia](https://www.cs.ubc.ca/) (Vancouver). I was working with Prof. [Mathias Lecuyer](https://mathias.lecuyer.me/), as part of a Systems lab, fondly called [Systopia](https://systopia.cs.ubc.ca/). My Master's thesis was on the topic of adversarial robustness of machine learning models. Check more details here: [Paper](https://shadabs.com/research/2024/08/01/ars.html) and [Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0445441).
+
+In a previous life, I completed my undergraduate (majoring in Computer Engineering) at University of Pune (India) from 2014 to 2018. During and after my undergraduate, I have worked on topics ranging from Systems Biology, Manifold learning, Privacy and Security of Machine Learning. I also contributed towards building a distributed and automated data science pipeline to synthesize images from a radio telescope.
+
+I carried out these projects during my visits to *University of Waterloo* (with [Prof. Xi He](https://cs.uwaterloo.ca/~xihe/)), *National University of Singapore* (with [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/)), *Tata Institute of Fundamental Research* (with [Prof. Hari Narayanan](https://www.tifr.res.in/~hariharan.narayanan/)) and *National Centre for Radio Astrophysics* (with [Dr. Yogesh Wadadekar](http://www.ncra.tifr.res.in/~yogesh/)). I have also worked remotely with [Prof. Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/) on data poisoning defenses and attacks for machine learning algorithms. On these short journeys of mine, I have been incredibly fortunate to have had amazing intellectuals as my mentors and colleagues.-->
+
+
